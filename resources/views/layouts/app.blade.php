@@ -17,6 +17,7 @@
     
     <body>
         @include("layouts.navbar")
+        @include("commons.error_messages")
         @yield("content")
     </body>
 </html>
